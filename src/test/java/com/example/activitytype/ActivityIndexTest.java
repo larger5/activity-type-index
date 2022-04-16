@@ -21,6 +21,8 @@ class ActivityIndexTest {
     void isCanUseInJdjsbTest() {
         // 010，true
         System.out.println(activityIndexService.isCanUseInJdjsb(2));
+        // 111，true
+        System.out.println(activityIndexService.isCanUseInJdjsb(7));
         // 100，false
         System.out.println(activityIndexService.isCanUseInJdjsb(4));
         // 001，false
