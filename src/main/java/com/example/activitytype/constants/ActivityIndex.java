@@ -7,19 +7,22 @@ package com.example.activitytype.constants;
  */
 public enum ActivityIndex {
     /**
+     * 001
      * 京东
      */
     JD(1, "京东"),
 
     /**
+     * 010
      * 京东极速版
      */
     JDJSB(2, "京东极速版本"),
 
     /**
+     * 100
      * 京东七鲜
      */
-    JD7F(3, "7Fresh");
+    JD7F(4, "7Fresh");
 
     /**
      * 位置
